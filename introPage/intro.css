@@ -1,0 +1,57 @@
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overscroll-behavior: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: "Jacquard 12", system-ui;
+  padding: 20px;
+  background-color: #000000;
+  color: aliceblue;
+  font-size: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top:hover {
+  color: #196323;
+  background-color: transparent;
+}
+
+.top {
+  cursor: url('/images/jkim.jpg') 32 32, auto !important;
+}
+
+.middle {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.bottom {
+  text-align: center;
+  font-size: 140px;
+}
+
+@media only screen and (max-width: 650px) {
+  .invite {
+    font-size: 16.5vw;
+  }
+}
