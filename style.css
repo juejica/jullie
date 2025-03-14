@@ -1,11 +1,21 @@
+@font-face {
+  font-family: 'Tobias';
+  src: url(Tobias-Thin.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font-family: 'Tobias';
+}
+
+.invite {
+  font-size: 8.98vw;
 }
