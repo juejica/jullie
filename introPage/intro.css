@@ -36,10 +36,6 @@ a {
   background-color: transparent;
 }
 
-.top {
-  cursor: url('/images/jkim.jpg') 32 32, auto !important;
-}
-
 .middle {
   margin-top: 40px;
   text-align: right;
