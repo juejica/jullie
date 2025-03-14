@@ -46,6 +46,7 @@ a:hover {
   font-size: 16.8vw;
   text-align: center;
   margin-top: auto;
+  display: block;
 }
 
 @media only screen and (max-width: 650px) {
