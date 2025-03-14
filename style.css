@@ -44,7 +44,7 @@ a:hover {
 
 .invite {
   padding: 0;
-  font-size: 16.8vw;
+  font-size: 16.7vw;
   text-align: center;
   margin-top: auto;
   display: block;
@@ -60,4 +60,8 @@ a:hover {
   .invite {
     font-size: 15vw;
   }
+}
+
+img {
+  height: 500px;
 }
