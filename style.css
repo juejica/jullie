@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+html {
+overscroll-behavior: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -17,6 +21,7 @@ body {
   font-family: 'Tobias';
   padding: 10px;
   background-color: #EDF0E5;
+  padding-bottom: 20px;
 }
 
 a {
