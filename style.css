@@ -12,10 +12,36 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
   font-family: 'Tobias';
+  padding: 10px;
+  background-color: #EDF0E5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #ff0000;
+  background-color: transparent;
+}
+
+.information {
+  font-size: 20px;
+  padding: 10px;
 }
 
 .invite {
-  font-size: 8.98vw;
+  padding: 0;
+  font-size: 16.8vw;
+  text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .invite {
+    font-size: 16.5vw;
+  }
 }
