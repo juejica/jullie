@@ -31,13 +31,14 @@ a:hover {
 
 .information {
   font-size: 20px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .invite {
   padding: 0;
   font-size: 16.8vw;
   text-align: center;
+
 }
 
 @media only screen and (max-width: 650px) {
