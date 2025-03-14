@@ -27,8 +27,9 @@ body {
   padding-bottom: 20px;
 }
 
+
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: inherit;
 }
 
@@ -48,6 +49,7 @@ a:hover {
   text-align: center;
   margin-top: auto;
   display: block;
+  
 }
 
 @media only screen and (max-width: 650px) {
@@ -64,11 +66,27 @@ a:hover {
 
 .image {
   padding: 15px;
-  text-align: end;
+  display: flex;
+  justify-content: end;
 }
 
 img {
   width: 100%;
-  max-width: 250px;
+  max-width: 350px;
   height: auto;
+  
+}
+@keyframes float {
+  0% {
+    
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
 }
