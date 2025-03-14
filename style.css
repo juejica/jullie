@@ -9,10 +9,17 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overscroll-behavior-y: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   font-family: 'Tobias';
   padding: 10px;
   background-color: #EDF0E5;
